@@ -2,13 +2,17 @@
   "name": "3djs",
   "version": "1.0.0",
   "description": "threejs",
-  "main": "scripts.js",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --experimental-modules js/script.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "three": "^0.154.0"
+    "jsdom": "^22.1.0",
+    "three": "^0.132.2"
+  },
+  "devDependencies": {
+    "puppeteer": "^20.8.2"
   }
 }
